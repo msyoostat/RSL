@@ -37,6 +37,6 @@ All code for training models and analysis is stored in the '**script**' folder i
 ## Result
 
 - **result**: This folder includes .csv files that store results.
-  - result_table.csv: The summary of model performances for Sections 3 to 6.
-  - result_reduced_table.csv: The summary of model performances for Appendix A.
+  - result_table.csv: The summary of model performances for **Sections 3 to 6.**
+  - result_reduced_table.csv: The summary of model performances for **Appendix A**.
   - result_runtime.csv: Run time summary.
