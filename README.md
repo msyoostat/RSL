@@ -29,5 +29,11 @@ All code is stored in the '**script**' folder in this repository.
   - gp_cities_reduced_input.R: R code for the Gaussian process.
 - **analysis**: This folder includes the scripts for the results in Section 5 of the paper. Note that gp_cities.R and gp_cities_reduced_input.R in the 'full' and 'reduced' folders, respectively, include the analysis code in it.
   - cvae_result.py: python code for the CVAE.
-  - fnn_result.py: python code for the feedforward NN.
+  - fnn_result.py: python code for the feedforward NN. It also includes code to generate Figure 6.
   - rf_result.py: python code for the random forest.
+  - result_box_plot_final.R: R code to generate Figures 3, 4, 5, and 10.
+  - result_box_plot_runtime_final.R: R code to generate Figure 7.
+- **result**: This folder includes .csv files that store results.
+  - result_table.csv: python code for the CVAE.
+  - result_runtime.csv: python code for the feedforward NN.
+  - result_reduced_table.csv: python code for the random forest.
