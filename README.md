@@ -5,7 +5,7 @@ This repository includes the data and code used in the paper, **'Uncertainty-ena
 All data except the "full" dataset is stored in the **data** folder in this repository. The "full" dataset (rsl_full_data.Rdata) can be downloaded from the **link**.
 - **Link**:
   - rsl_full_data.Rdata: The "full" data used in Section 1 to 6 can be downloaded from [here](https://drive.google.com/file/d/1ju48Dh3kfWOd1dqQmtAmBU-75Kw0elev/view?usp=sharing).
-- **full**: This folder includes the reduced dimension input for the Gaussian process and random forest (principal components), as described in Section 3.3. Note that these are used only for gp_cities.R; dimension reduction for the random forest is conducted in rf.py.
+- **full**: This folder includes the reduced dimension input for the Gaussian process and random forest (principal components), as described in Section 3.3. The dimension reduction is conducted in Python and saved as .txt files for use in gp_cities.R.
     - train_data_x.txt: The reduced dimension input for training data.
     - val_data_x.txt: The reduced dimension input for validation data.
     - test_data_x.txt: The reduced dimension input for test data.
