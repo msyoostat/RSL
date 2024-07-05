@@ -11,9 +11,9 @@ All data except the "full" dataset is stored in the **data** folder in this repo
     - test_data_x.txt: The reduced dimension input for test data.
 - **reduced**: This folder includes the data used in Appendix A. Note that .txt files are used only for gp_cities_reduced_input.R.
     - regional_cities_train_test_val_py.RData: training, validation, and test data used for the analysis in Appendix A.
-    - train_data_lithk_region_mean_x.txt: input for training data
-    - val_data_lithk_region_mean_x.txt: input for validation data
-    - test_data_lithk_region_mean_x.txt: input for test data
+    - train_data_lithk_region_mean_x.txt: input for training data.
+    - val_data_lithk_region_mean_x.txt: input for validation data.
+    - test_data_lithk_region_mean_x.txt: input for test data.
   
 ## Code for the machine learning (ML) models
 All code is stored in the '**script**' folder in this repository.
