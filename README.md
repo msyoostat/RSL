@@ -33,10 +33,12 @@ All code for training models and analysis is stored in the '**script**' folder i
   - rf_result.py: Python code for the random forest.
   - result_box_plot_final.R: R code to generate Figures 3, 4, 5, and 10.
   - result_box_plot_runtime_final.R: R code to generate Figure 7.
+  - emulated_density_plots.Rmd: R code to generate Figure 8.
 
 ## Result
 
-- **result**: This folder includes .csv files that store results.
+- **result**: This folder includes .csv and .RData files that store results.
   - result_table.csv: The summary of model performances for **Sections 3 to 6.**
   - result_reduced_table.csv: The summary of model performances for **Appendix A**.
   - result_runtime.csv: Run time summary.
+  - emulated_data_fig8.RData: The emulated RSL change for Dunedin, Montevideo, and Midway during year 2100 with high-emissions scenario for **Section 6.**
