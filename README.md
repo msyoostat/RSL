@@ -1,14 +1,9 @@
 # RSL
-This repository includes the data and code used in the paper, **'Uncertainty-enabled machine learning for emulation of regional sea-level change caused by the Antarctic Ice Sheet'** by Yoo et al (2024). For the preprint, please check [here](https://arxiv.org/abs/2406.17729).
+This repository includes the data and code used in the paper, **'Uncertainty-enabled machine learning for emulation of regional sea-level change caused by the Antarctic Ice Sheet'** by Yoo et al (2025). Specifically, this repository contains code for machine learning-based emulators. For the preprint, please check [here](https://arxiv.org/abs/2406.17729).
 
 ## Data
-All data except the "full" dataset is stored in the **data** folder in this repository. The "full" dataset (rsl_full_data.Rdata) can be downloaded from the **link**.
-- **Link**:
-  - rsl_full_data.Rdata: The "full" data used in **Sections 3 to 6** can be downloaded from [here](https://drive.google.com/file/d/1ju48Dh3kfWOd1dqQmtAmBU-75Kw0elev/view?usp=sharing).
+All data are openly available in [Yoo et al. (2025)](https://doi.org/10.5281/zenodo.14872314). 
 - **full**: This folder includes the reduced dimension input for the Gaussian process and random forest (principal components), as described in Section 3.3. The dimension reduction is conducted in Python and saved as .txt files for use in gp_cities.R.
-    - train_data_x.txt: The reduced dimension input for training data.
-    - val_data_x.txt: The reduced dimension input for validation data.
-    - test_data_x.txt: The reduced dimension input for test data.
 - **sector_based**: This folder includes the data (sector-based inputs) used in **Appendix A**. Note that .txt files are used only for gp_cities_reduced_input.R.
     - regional_cities_train_test_val_py.RData: Training, validation, and test data.
     - train_data_lithk_region_mean_x.txt: The input for training data.
